@@ -48,7 +48,7 @@ public class ScoreBoard : MonoBehaviour
 		}
 		else
 		{
-			finishString.gameObject.SetActive(true);
+			finishString.gameObject.SetActive(true);// player who gets higher score win this game
 			String mes = "";
 			if (comp1.score > comp2.score)
 			{
